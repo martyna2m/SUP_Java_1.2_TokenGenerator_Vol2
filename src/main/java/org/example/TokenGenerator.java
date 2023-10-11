@@ -17,8 +17,7 @@ public class TokenGenerator {
 
         for (int i = 0; i < charNumber; i++) {
             int intForChar = rand.nextInt(33, 123);
-            while ((intForChar == 34) || (intForChar == 39) || (intForChar > 42 && intForChar < 48) || (intForChar > 57 && intForChar < 64) ||
-                    (intForChar > 90 && intForChar < 94) || (intForChar > 94 && intForChar < 97)) {
+            while ((intForChar == 34) || (intForChar == 39) || (intForChar > 42 && intForChar < 48) || (intForChar > 57 && intForChar < 64) || (intForChar > 90 && intForChar < 94) || (intForChar > 94 && intForChar < 97)) {
                 intForChar = rand.nextInt(33, 123);
             }
 
